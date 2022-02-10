@@ -1,0 +1,286 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: initial;
+}
+
+.font-large {
+  font-size: 21px;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+
+/* Utilities */
+
+/*Button */
+.btn-login {
+  background: #ffcc00;
+  width: 85%;
+  margin: 0 2rem 2rem 1.5rem;
+  font-weight: bolder;
+  border-radius: 0.6rem;
+}
+
+/* Primary Search */
+.fa-search-primary {
+  background: #ffc266;
+}
+
+/* Secondary-link */
+.product-link {
+  text-decoration: none;
+  color: #007185;
+  margin: 1.5rem 0;
+}
+
+/* heading */
+h1 {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Navbar */
+.primary-navbar {
+  background: #0f1111;
+  color: #f4f4f4;
+
+}
+
+.primary-navbar .nav-hover-item {
+  padding: 3px 5px;
+}
+
+.primary-navbar .nav-hover-item:hover {
+  border: #f4f4f4 1px solid;
+  padding: 2px 4px;
+}
+
+.navbar-brand > img {
+  height: 50px;
+  width: 113px;
+}
+
+.container-fluid > ul > li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+/* Secondary nav */
+.secondary-navbar {
+  background: #232f3e;
+  color: #f4f4f4;
+
+}
+
+.secondary-navbar .nav-hover-item {
+  padding: 3px 7px;
+}
+
+.secondary-navbar .nav-hover-item:hover {
+  border: #f4f4f4 1px solid;
+  border-radius: 2px;
+  padding: 2px 6px;
+}
+
+/* Background */
+#background {
+  background: url("./images/background.jpg") center/cover;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Showcase */
+
+#showcase .container-fluid > p {
+  color: #0f1111;
+  background: #f4f4f4;
+  margin-top: 25%;
+  margin-left: 1.1rem;
+  margin-right: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* products grid */
+.card {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+#products-showcase .container-fluid .card-user > div {
+  background-color: #fff;
+  margin: 0 0 2rem 0;
+}
+
+/* Products-secondary */
+#products-secondary .container-fluid .container-fluid {
+  background: #fff;
+  margin: 2rem 0;
+}
+
+.image-container img {
+  height: 203px;
+  width: 200px;
+  padding: 1rem;
+}
+
+/* Footer */
+
+/* Secondary Footer */
+#secondary-footer .border-container {
+  background: #fff;
+}
+
+#secondary-footer .container-fluid {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#secondary-footer .border-container .container-fluid > p {
+  padding: 2rem;
+  text-align: center;
+}
+
+#secondary-footer .border-container .container-fluid a {
+  width: 25%;
+  margin: 0;
+  border-radius: 4px;
+}
+
+/* Secondary footer a */
+#secondary-footer-a > p {
+  background-color: #232f3e;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+#secondary-footer-a > p > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Secondary footer b */
+#secondary-footer-b {
+  background: #1c2531;
+  color: #fff;
+  border-bottom: 1px solid #374a62;
+}
+
+#secondary-footer-b ul {
+  padding: 2rem;
+}
+
+#secondary-footer-b li {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0.3rem;
+}
+
+#secondary-footer-b a {
+  text-decoration: none;
+  color: #dddd;
+  font-weight: bold;
+}
+
+#secondary-footer-b a:hover {
+  text-decoration: underline;
+}
+
+/* Secondary-footer-c */
+#secondary-footer-c {
+  background: #1c2531;
+  color: #fff;
+}
+
+#secondary-footer-c ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#secondary-footer-c ul li p {
+  border: #f4f4f4 1px solid;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 2px;
+}
+
+#secondary-footer-c img {
+  height: 23px;
+  width: 76px;
+  margin-top: 0.7rem;
+  margin-right: 4rem;
+}
+
+/* Secondary-footer-d */
+#secondary-footer-d {
+  background: #131a22;
+}
+
+#secondary-footer-d ul li {
+  padding: 1rem;
+}
+
+#secondary-footer-d a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#secondary-footer-d a > small {
+  font-weight: normal;
+}
+
+#secondary-footer-d a:hover {
+  text-decoration: underline;
+}
+
+/* Main Footer */
+#main-footer > p {
+  background: #131a22;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 1rem;
+  word-spacing: 0.5rem;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #secondary-footer-d {
+        display: none;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 576px) {
+  #secondary-footer-b, #secondary-footer-c {
+  display: none;
+  
+}
+
+}
+
